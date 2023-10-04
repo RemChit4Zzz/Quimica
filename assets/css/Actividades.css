@@ -1,0 +1,135 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+/* Estilos para el título del encabezado */
+header h1 {
+  margin: 0;
+}
+
+/* Estilos para el cuerpo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenedor principal */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el título principal */
+main h2 {
+  margin-top: 0;
+}
+
+/* Estilos para la lista de actividades */
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Estilos para los elementos de la lista de actividades */
+main li {
+  margin-bottom: 20px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para las imágenes de los elementos de la lista de actividades */
+main li img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces de los elementos de la lista de actividades */
+main li a {
+  text-align: center;
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Estilos para el botón de volver al menú */
+main .button {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de volver al menú cuando el cursor está sobre él */
+main .button:hover {
+  background-color: #34495e;
+}
+
+/* Estilos para el contenedor de las imágenes de los elementos de la lista de actividades */
+main li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las imágenes de los elementos de la lista de actividades */
+main li img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Estilos para las imágenes de los elementos de la lista de actividades cuando el cursor está sobre ellas */
+main li img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+/* Estilos para el elemento Coming Soon */
+.ComingSoon {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  padding: 1px 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+/* Estilos para la imagen del elemento Coming Soon */
+.ComingSoon img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el enlace del elemento Coming Soon */
+.ComingSoon a {
+  color: #2c3e50;
+  font-weight: normal;
+}

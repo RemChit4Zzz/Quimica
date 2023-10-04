@@ -1,0 +1,20 @@
+[
+    {
+        "id": "info1",
+        "titulo": "¿Esto es?...¿Químico o Físico?",
+        "contenido": "Este juego te desafía a identificar si una serie de fenómenos o situaciones son de naturaleza química o física. Deberás seleccionar la respuesta correcta para cada pregunta. ¡Demuestra tus conocimientos científicos!",
+        "imagen": "../../../media/imagenes/info1.png"
+    },
+    {
+        "id": "info2",
+        "titulo": "Pregunta 2",
+        "contenido": "Esta es la descripción de la pregunta 2. En este juego, encontrarás una serie de situaciones y deberás elegir entre 'Químico' o 'Físico' como respuesta. ¡Buena suerte!",
+        "imagen": "ruta/a/imagen2.jpg"
+    },
+    {
+        "id": "info3",
+        "titulo": "Pregunta 3",
+        "contenido": "Descripción de la pregunta 3. Prepárate para poner a prueba tus conocimientos en ciencia. No olvides que puedes adjuntar imágenes para ayudar a los jugadores a tomar la decisión correcta.",
+        "imagen": "ruta/a/imagen3.jpg"
+    }
+]

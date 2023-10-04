@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Químicos</title>
+    <link rel="stylesheet" href="../../css/Memorama.css">
+    <style>
+        /* Estilo para el contenedor principal */
+        body {
+            display: flex;
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar verticalmente */
+            height: 100vh; /* Establecer altura del 100% del viewport */
+            margin: 0; /* Eliminar márgenes por defecto */
+        }
+
+        /* Estilos para las imágenes izquierda y derecha */
+        .left-image,
+        .right-image {
+            width: 200px;
+            height: 400px;
+            margin: 0 20px; /* Espacio entre las imágenes y el contenido principal */
+        }
+
+        /* Estilo para el contenido principal */
+        .container {
+            text-align: center; /* Centrar contenido horizontalmente */
+        }
+
+        /* Estilo para el botón "back" */
+        .button {
+            text-align: center; /* Centrar contenido horizontalmente */
+            margin-bottom: 20px; /* Espacio en la parte inferior del botón */
+        }
+    </style>
+</head>
+<body>
+    <!-- Imagen en el lado izquierdo -->
+    <img src="../../../media/imagenes/ae_01.png" alt="Imagen Izquierda" class="left-image">
+
+    <div class="container">
+        <h1>Elementos Químicos</h1>
+        <p class="element-name" id="element-name">Nombre del Elemento</p>
+        <p>Ronda: <span id="round">1</span>/9</p>
+        <div class="blocks" id="blocks">
+            <!-- Aquí se generarán los bloques de elementos químicos -->
+        </div>
+        <p id="message"></p>
+        <!-- Mensaje de victoria oculto por defecto -->
+        <div id="victory-message" style="display: none">
+            <p>¡Ganaste! Has completado todas las rondas.</p>
+            <!-- Botón para volver a jugar oculto por defecto -->
+            <button id="restart-button" style="display: none">Volver a Jugar</button>
+        </div>
+        <a href="../Actividades.html" class="button">back</a>
+    </div>
+
+    <!-- Imagen en el lado derecho -->
+    <img src="../../../media/imagenes/ae_01.png" alt="Imagen Derecha" class="right-image">
+    <script src="../../js/Memorama.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* Estilos globales */
+body {
+  font-family: "Arial Unicode MS", Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado */
+h1 {
+  text-align: center;
+  background-color: #00a8cc;
+  color: #fff;
+  padding: 20px 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del contenedor de preguntas */
+#preguntas-container {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de las preguntas individuales */
+.pregunta {
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los textos de preguntas */
+.pregunta-text {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos de las respuestas */
+.respuestas label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilos de las respuestas individuales */
+.respuesta-text {
+  margin-left: 10px;
+  color: #555;
+}
+
+/* Estilos para respuestas correctas */
+.respuesta-correcta {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Estilos para botones */
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #9b59b6;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #7644a2;
+  transform: scale(1.05);
+}
+
+/* Estilos para mensajes de error */
+#mensaje {
+  font-family: "Arial Unicode MS", Arial, sans-serif;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+/* Estilos para botón de reinicio */
+#restart {
+  background-color: #9b59b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#restart:hover {
+  background-color: #7644a2;
+  transform: scale(1.05);
+}

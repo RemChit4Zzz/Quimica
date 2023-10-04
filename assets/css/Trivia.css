@@ -1,0 +1,125 @@
+/* Estilo para el contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centrar verticalmente */
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Verde brillante */
+    background-color: #E0F2E9; /* Verde agua */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 800px;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+}
+
+
+/* Estilo para el título */
+h1 {
+    font-family: 'Verdana', sans-serif;
+    color: #4CAF50; /* Verde brillante */
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para las respuestas */
+.respuesta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50; /* Verde brillante */
+    color: #fff;
+    border: 2px solid #357435; /* Verde oscuro */
+    border-radius: 25px;
+    cursor: move;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.respuesta:hover {
+    background-color: #357435; /* Verde oscuro al pasar el mouse */
+    transform: scale(1.1);
+}
+
+/* Estilo para los cuadros en blanco */
+.cuadro-en-blanco {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    min-width: 150px;
+    background-color: #E0F2E9; /* Verde agua */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el botón de verificación */
+#verificarRespuestaManualmente {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    background-color: #B2FFB2; /* Verde más claro (gris verdoso) */
+    color: #333; /* Color de texto más oscuro */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#verificarRespuestaManualmente:hover {
+    background-color: #8ECF8E; /* Cambia a un tono más oscuro al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+
+/* Estilo para el mensaje de respuesta */
+#mensajeRespuesta {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4CAF50; /* Verde brillante */
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el enlace "back" */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF6B6B; /* Rojo brillante */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px; /* Forma circular */
+    font-family: 'Courier New', monospace; /* Cambia la fuente a 'Courier New' o tu fuente preferida */
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #D11F1F; /* Rojo oscuro al pasar el mouse */
+    transform: scale(1.1); /* Efecto de escala al pasar el mouse */
+}
+
+/* Estilo para la imagen */
+.imagen {
+    width: 200px;
+    height: 400px;
+    margin-right: 20px; /* Espacio entre la imagen y el contenido */
+    align-self: center; /* Centrar verticalmente la imagen dentro del contenedor */
+    order: 1; /* Cambiar el orden para que la imagen esté a la derecha */
+}

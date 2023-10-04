@@ -1,0 +1,125 @@
+{
+    "cartas": [
+      {
+        "id": 1,
+        "elemento": "Oro",
+        "simbolo": "Au"
+      },
+      {
+        "id": 2,
+        "elemento": "Cobre",
+        "simbolo": "Cu"
+      },
+      {
+        "id": 3,
+        "elemento": "Plata",
+        "simbolo": "Ag"
+      },
+      {
+        "id": 4,
+        "elemento": "Hierro",
+        "simbolo": "Fe"
+      },
+      {
+        "id": 5,
+        "elemento": "Zinc",
+        "simbolo": "Zn"
+      },
+      {
+        "id": 6,
+        "elemento": "Aluminio",
+        "simbolo": "Al"
+      },
+      {
+        "id": 7,
+        "elemento": "Mercurio",
+        "simbolo": "Hg"
+      },
+      {
+        "id": 8,
+        "elemento": "Plomo",
+        "simbolo": "Pb"
+      },
+      {
+        "id": 9,
+        "elemento": "Níquel",
+        "simbolo": "Ni"
+      },
+      {
+        "id": 10,
+        "elemento": "Estaño",
+        "simbolo": "Sn"
+      },
+      {
+        "id": 11,
+        "elemento": "Platino",
+        "simbolo": "Pt"
+      },
+      {
+        "id": 12,
+        "elemento": "Titanio",
+        "simbolo": "Ti"
+      },
+      {
+        "id": 13,
+        "elemento": "Sodio",
+        "simbolo": "Na"
+      },
+      {
+        "id": 14,
+        "elemento": "Potasio",
+        "simbolo": "K"
+      },
+      {
+        "id": 15,
+        "elemento": "Calcio",
+        "simbolo": "Ca"
+      },
+      {
+        "id": 16,
+        "elemento": "Magnesio",
+        "simbolo": "Mg"
+      },
+      {
+        "id": 17,
+        "elemento": "Fósforo",
+        "simbolo": "P"
+      },
+      {
+        "id": 18,
+        "elemento": "Azufre",
+        "simbolo": "S"
+      },
+      {
+        "id": 19,
+        "elemento": "Litio",
+        "simbolo": "Li"
+      },
+      {
+        "id": 20,
+        "elemento": "Boro",
+        "simbolo": "B"
+      },
+      {
+        "id": 21,
+        "elemento": "Carbono",
+        "simbolo": "C"
+      },
+      {
+        "id": 22,
+        "elemento": "Hidrógeno",
+        "simbolo": "H"
+      },
+      {
+        "id": 23,
+        "elemento": "Nitrógeno",
+        "simbolo": "N"
+      },
+      {
+        "id": 24,
+        "elemento": "Oxígeno",
+        "simbolo": "O"
+      }
+    ]
+  }
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop de Opciones</title>
+    <style>
+        /* Estilo para el contenedor principal */
+        .contenedor-grande {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border: 2px solid #ccc;
+        }
+
+        /* Estilo para los cuadros pequeños */
+        .cuadro-pequeno {
+            flex: 1;
+            border: 2px dashed #aaa;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        /* Estilo para las opciones */
+        .opcion {
+            display: block;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: 2px solid #0044A5;
+            border-radius: 5px;
+            cursor: move;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-grande">
+        <div class="cuadro-pequeno" id="cuadro1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="cuadro-pequeno" id="cuadro2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="cuadro-pequeno" id="cuadro3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="contenedor-grande">
+        <div class="opcion" draggable="true" ondragstart="drag(event)">Opción 1</div>
+        <div class="opcion" draggable="true" ondragstart="drag(event)">Opción 2</div>
+        <div class="opcion" draggable="true" ondragstart="drag(event)">Opción 3</div>
+    </div>
+
+    <script>
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.textContent);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            const data = event.dataTransfer.getData("text");
+            const cuadro = event.target;
+
+            // Verificar si el cuadro ya contiene una opción
+            if (cuadro.textContent === '') {
+                cuadro.appendChild(document.createTextNode(data));
+            }
+        }
+    </script>
+</body>
+</html>

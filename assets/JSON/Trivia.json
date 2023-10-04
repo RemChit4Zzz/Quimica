@@ -1,0 +1,128 @@
+{
+  "Drag And Drop": [
+    {
+      "nombre": "IONICO",
+      "descripcion": "Completa las siguientes oraciones con la palabra adecuada:",
+      "preguntas": [
+        {
+          "pregunta": "En una reacción iónica, los iones __BLANK__ electrones.",
+          "respuesta_correcta": "transfieren",
+          "respuestas_incorrectas": ["comparten", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "Los compuestos iónicos están formados por __BLANK__ y __BLANK__.",
+          "respuesta_correcta": "cationes, aniones",
+          "respuestas_incorrectas": ["átomos, moléculas", "protones, electrones", "neutrones, electrones"]
+        },
+        {
+          "pregunta": "En una reacción iónica, los cationes __BLANK__ electrones y los aniones __BLANK__ electrones.",
+          "respuesta_correcta": "pierden, ganan",
+          "respuestas_incorrectas": ["comparten, ganan", "ganan, pierden", "transfieren, comparten"]
+        },
+        {
+          "pregunta": "Los compuestos iónicos tienen una estructura cristalina debido a la atracción entre __BLANK__ y __BLANK__.",
+          "respuesta_correcta": "cationes, aniones",
+          "respuestas_incorrectas": ["átomos, moléculas", "protones, electrones", "neutrones, electrones"]
+        },
+        {
+          "pregunta": "En un compuesto iónico, la carga total es __BLANK__.",
+          "respuesta_correcta": "neutra",
+          "respuestas_incorrectas": ["positiva", "negativa", "variable"]
+        }
+      ]
+    },
+    {
+      "nombre": "COVALENTE POLAR",
+      "descripcion": "Completa las siguientes oraciones con la palabra adecuada:",
+      "preguntas": [
+        {
+          "pregunta": "En un enlace covalente polar, los electrones se __BLANK__ de manera desigual entre los átomos.",
+          "respuesta_correcta": "comparten",
+          "respuestas_incorrectas": ["transfieren", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "En una molécula con enlace covalente polar, el átomo con mayor electronegatividad __BLANK__ los electrones.",
+          "respuesta_correcta": "atrae",
+          "respuestas_incorrectas": ["comparte", "pierde", "gana"]
+        },
+        {
+          "pregunta": "Los enlaces covalentes polares generan la formación de __BLANK__ en las moléculas.",
+          "respuesta_correcta": "cargas parciales",
+          "respuestas_incorrectas": ["iones", "cargas completas", "electrones compartidos"]
+        },
+        {
+          "pregunta": "En una molécula de agua, los electrones se __BLANK__ hacia el oxígeno debido a su mayor electronegatividad.",
+          "respuesta_correcta": "desplazan",
+          "respuestas_incorrectas": ["comparten", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "La polaridad de una molécula depende de la diferencia de __BLANK__ entre los átomos.",
+          "respuesta_correcta": "electronegatividad",
+          "respuestas_incorrectas": ["tamaño", "masa", "carga"]
+        }
+      ]
+    },
+    {
+      "nombre": "COVALENTE NO POLAR",
+      "descripcion": "Completa las siguientes oraciones con la palabra adecuada:",
+      "preguntas": [
+        {
+          "pregunta": "En un enlace covalente no polar, los electrones se __BLANK__ de manera igual entre los átomos.",
+          "respuesta_correcta": "comparten",
+          "respuestas_incorrectas": ["transfieren", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "En una molécula de oxígeno (O2), los dos átomos de oxígeno __BLANK__ los electrones de manera igual.",
+          "respuesta_correcta": "comparten",
+          "respuestas_incorrectas": ["transfieren", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "Los enlaces covalentes no polares se forman entre átomos con __BLANK__ electronegatividades.",
+          "respuesta_correcta": "similares",
+          "respuestas_incorrectas": ["diferentes", "altas", "bajas"]
+        },
+        {
+          "pregunta": "En una molécula de nitrógeno (N2), los electrones se __BLANK__ entre los dos átomos de nitrógeno.",
+          "respuesta_correcta": "comparten",
+          "respuestas_incorrectas": ["transfieren", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "Los enlaces covalentes no polares son típicos en moléculas __BLANK__.",
+          "respuesta_correcta": "diatómicas",
+          "respuestas_incorrectas": ["poliatómicas", "iónicas", "metálicas"]
+        }
+      ]
+    },
+    {
+      "nombre": "METALICO",
+      "descripcion": "Completa las siguientes oraciones con la palabra adecuada:",
+      "preguntas": [
+        {
+          "pregunta": "En un enlace metálico, los electrones se __BLANK__ libremente entre los átomos de metal.",
+          "respuesta_correcta": "mueven",
+          "respuestas_incorrectas": ["comparten", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "En una red metálica, los iones positivos están rodeados por una nube de __BLANK__.",
+          "respuesta_correcta": "electrones",
+          "respuestas_incorrectas": ["protones", "neutrones", "iones negativos"]
+        },
+        {
+          "pregunta": "La alta conductividad eléctrica de los metales se debe a la presencia de __BLANK__ en la estructura metálica.",
+          "respuesta_correcta": "electrones libres",
+          "respuestas_incorrectas": ["iones positivos", "protones", "electrones compartidos"]
+        },
+        {
+          "pregunta": "Los metales son __BLANK__ debido a la facilidad con la que los átomos pueden deslizarse unos sobre otros.",
+          "respuesta_correcta": "maleables",
+          "respuestas_incorrectas": ["frágiles", "dúctiles", "quebradizos"]
+        },
+        {
+          "pregunta": "Los electrones libres en un enlace metálico permiten la formación de __BLANK__.",
+          "respuesta_correcta": "corriente eléctrica",
+          "respuestas_incorrectas": ["calor", "luz", "sonido"]
+        }
+      ]
+    }
+  ]
+}

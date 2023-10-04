@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Actividades de Cambios Físicos y Químicos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Estilos para encabezados */
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        /* Estilos para párrafos */
+        p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Estilos para enlaces */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para el botón de Menú Principal */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilos para la barra horizontal */
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin-top: 20px;
+        }
+
+        /* Estilos para los títulos de sección */
+        h1, h2, h3 {
+            margin-top: 20px;
+        }
+
+        /* Estilos específicos para la actividad de cambios físicos y químicos */
+        .quiz-instructions {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para el formulario de la actividad de cambios físicos y químicos */
+        .quiz-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Estilos para las opciones de respuesta en la actividad de cambios físicos y químicos */
+        .quiz-option {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos específicos para la actividad de funciones orgánicas */
+        .quiz-instructions-org {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para el formulario de la actividad de funciones orgánicas */
+        .quiz-form-org {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        /* Estilos para las opciones de respuesta en la actividad de funciones orgánicas */
+        .quiz-option-org {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        /* Estilos para la ventana emergente de alerta */
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .popup-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .popup-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        /* Estilos para el mensaje de alerta */
+        .alert-message {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Ventana emergente de alerta -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h1>Página en desarrollo</h1>
+            <p class="alert-message">Lamento las molestias, pero esta página aún está en fase beta.</p>
+            <p class="alert-message">Presiona "Aceptar" para continuar o "Cancelar" para volver al menú.</p>
+            <button class="popup-button" onclick="accept()">Aceptar</button>
+            <button class="popup-button" onclick="cancel()">Cancelar</button>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="content" style="display: none;">
+        <h1>Como funciona "¿Esto es?...¿Fisicos o quimicos?"</h1>
+        <p>En esta actividad, exploraremos los cambios físicos y químicos en la materia.</p>
+        <p>Se harán preguntas, quien deberá seleccionar "físico" o "químico" y dependiendo si la respuesta correcta sumará 100 puntos, mientras que cada respuesta incorrecta restará 50 puntos. Además, solo tienes 15 segundos para responder cada pregunta; de lo contrario, perderás.</p>
+    
+        <h2>¿Qué es un cambio físico?</h2>
+        <p>Un cambio físico es aquel en el que la apariencia o el estado físico de una sustancia se modifica, pero su composición química permanece inalterada. Por ejemplo, la congelación del agua es un cambio físico.</p>
+
+        <h2>¿Qué es un cambio químico?</h2>
+        <p>Un cambio químico implica una transformación en la composición química de una sustancia. Un ejemplo sería la oxidación del hierro para formar óxido de hierro (herrumbre).</p>
+
+        <h3>Ejemplo de cambio físico:</h3>
+        <p>La transformación del agua líquida en hielo durante la congelación.</p>
+
+        <h3>Ejemplo de cambio químico:</h3>
+        <p>La formación de óxido de hierro (herrumbre) como resultado de la oxidación del hierro.</p>
+
+    <!-- Formulario para la actividad de cambios físicos y químicos -->
+        <div class="quiz-instructions">
+            <p>Recuerda:</p>
+            <ul>
+                <li>Selecciona "físico" o "químico" para responder.</li>
+                <li>Respuesta correcta: +100 puntos.</li>
+                <li>Respuesta incorrecta: -50 puntos.</li>
+                <li>Tiempo límite: 15 segundos por pregunta.</li>
+            </ul>
+        </div>
+
+        <hr>
+        <h1>Actividad de Funciones Orgánicas</h1>
+        <p>Exploraremos las funciones orgánicas en la química.</p>
+        <p>En esta actividad, se presentarán preguntas relacionadas con las funciones orgánicas y se ofrecerán opciones de respuesta. El usuario debe seleccionar la opción correcta para cada pregunta.</p>
+
+        <h1>Funciones Orgánicas</h1>
+        <p>Las funciones orgánicas son grupos de compuestos químicos que comparten propiedades químicas similares debido a su estructura molecular. Algunas de las funciones orgánicas más comunes son:</p>
+
+        <h2>Óxidos</h2>
+        <p>Los óxidos son compuestos que contienen oxígeno y otro elemento.</p>
+        <p>Ejemplo: Dióxido de carbono (CO2)</p>
+
+        <h2>Anhídridos</h2>
+        <p>Los anhídridos son compuestos formados por la unión de dos ácidos orgánicos.</p>
+        <p>Ejemplo: Anhídrido acético (C4H6O3)</p>
+
+        <h2>Hidróxidos</h2>
+        <p>Los hidróxidos contienen el grupo hidroxilo (-OH) unido a un metal.</p>
+        <p>Ejemplo: Hidróxido de sodio (NaOH)</p>
+
+        <h2>Ácidos</h2>
+        <p>Los ácidos orgánicos contienen el grupo carboxilo (-COOH).</p>
+        <p>Ejemplo: Ácido acético (CH3COOH)</p>
+
+        <h2>Hidruros</h2>
+        <p>Los hidruros son compuestos que contienen hidrógeno y otro elemento.</p>
+        <p>Ejemplo: Hidruro de sodio (NaH)</p>
+
+        <h2>Sales Binarias</h2>
+        <p>Las sales binarias están formadas por un catión y un anión, sin oxígeno.</p>
+        <p>Ejemplo: Cloruro de sodio (NaCl)</p>
+
+        <h2>Oxisales</h2>
+        <p>Las oxisales contienen oxígeno y un metal o ion metálico.</p>
+        <p>Ejemplo: Sulfato de calcio (CaSO4)</p>
+
+        <!-- Resto del contenido de funciones orgánicas -->
+        <!-- ... -->
+
+        <a href="../../Index.html" class="button">Menú Principal</a>
+    </div>
+
+    <script>
+        // Función para mostrar la ventana emergente de alerta
+        function showAlert() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'flex';
+        }
+
+        // Función para continuar después de aceptar la alerta
+        function accept() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+            // Mostrar el contenido principal aquí
+            document.getElementById('content').style.display = 'block';
+        }
+
+        // Función para volver al menú después de cancelar la alerta
+        function cancel() {
+            window.location.href = '../../Index.html';
+        }
+
+        // Mostrar la alerta al cargar la página
+        window.onload = showAlert;
+    </script>
+</body>
+</html>

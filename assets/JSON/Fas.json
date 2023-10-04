@@ -1,0 +1,154 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿La evaporación del agua es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 2,
+      "enunciado": "¿La oxidación del hierro es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 3,
+      "enunciado": "¿La sublimación del hielo es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 4,
+      "enunciado": "¿La combustión de la gasolina es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 5,
+      "enunciado": "¿La fermentación de la levadura es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 6,
+      "enunciado": "¿La fusión del hielo es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 7,
+      "enunciado": "¿La fermentación del vino es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 8,
+      "enunciado": "¿La descomposición del agua mediante electrólisis es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 9,
+      "enunciado": "¿La sublimación del yodo es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 10,
+      "enunciado": "¿La oxidación de la manzana al cortarla es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 11,
+      "enunciado": "¿La evaporación del alcohol es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 12,
+      "enunciado": "¿La reacción de neutralización entre un ácido y una base es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 13,
+      "enunciado": "¿La cristalización de la sal es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 14,
+      "enunciado": "¿La descomposición del peróxido de hidrógeno es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 15,
+      "enunciado": "¿La ebullición del mercurio es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 16,
+      "enunciado": "¿La fermentación del pan es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 17,
+      "enunciado": "¿La combustión del papel es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 18,
+      "enunciado": "¿La sublimación del azufre es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 19,
+      "enunciado": "¿La oxidación del cobre es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 20,
+      "enunciado": "¿La congelación del aceite es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 21,
+      "enunciado": "¿La sublimación del dióxido de carbono es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 22,
+      "enunciado": "¿La oxidación del plátano al dejarlo al aire libre es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 23,
+      "enunciado": "¿La destilación del agua es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 24,
+      "enunciado": "¿La combustión del carbón es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 25,
+      "enunciado": "¿La solidificación del mercurio es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 26,
+      "enunciado": "¿La fermentación de la cerveza es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 27,
+      "enunciado": "¿La descomposición del peróxido de sodio es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 28,
+      "enunciado": "¿La evaporación del éter es un cambio físico o químico?",
+      "respuesta": "físico"
+    },
+    {
+      "id": 29,
+      "enunciado": "¿La oxidación del aluminio es un cambio físico o químico?",
+      "respuesta": "químico"
+    },
+    {
+      "id": 30,
+      "enunciado": "¿La sublimación del naftaleno es un cambio físico o químico?",
+      "respuesta": "físico"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un compuesto químico?",
+      "good": "Agua (H2O)",
+      "wrong": [
+        "Aire",
+        "Sal de mesa (NaCl)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla?",
+      "good": "Ensalada de frutas",
+      "wrong": [
+        "Dióxido de carbono (CO2)",
+        "Oxígeno (O2)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un compuesto químico?",
+      "good": "Aire",
+      "wrong": [
+        "Ozono (O3)",
+        "Cloruro de sodio (NaCl)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es una mezcla?",
+      "good": "Hidróxido de sodio (NaOH)",
+      "wrong": [
+        "Sopa de verduras",
+        "Aire"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un compuesto químico?",
+      "good": "Metano (CH4)",
+      "wrong": [
+        "Jugo de naranja",
+        "Granito"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla?",
+      "good": "Aire",
+      "wrong": [
+        "Óxido de hierro (Fe2O3)",
+        "Plástico"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un compuesto químico?",
+      "good": "Hidrógeno (H2)",
+      "wrong": [
+        "Cloro (Cl2)",
+        "Azúcar (sacarosa)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es una mezcla?",
+      "good": "Oro (Au)",
+      "wrong": [
+        "Leche",
+        "Aire"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un compuesto químico?",
+      "good": "Dióxido de azufre (SO2)",
+      "wrong": [
+        "Salsa de tomate",
+        "Granito"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla?",
+      "good": "Café",
+      "wrong": [
+        "Oxígeno (O2)",
+        "Hielo"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla heterogénea?",
+      "good": "Granola con yogurt",
+      "wrong": [
+        "Agua destilada",
+        "Dióxido de carbono (CO2)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un compuesto químico orgánico?",
+      "good": "Etileno (C2H4)",
+      "wrong": [
+        "Sal de mesa (NaCl)",
+        "Aire"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla homogénea?",
+      "good": "Coca-Cola",
+      "wrong": [
+        "Oxígeno (O2)",
+        "Diamante (C)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un compuesto químico?",
+      "good": "Hidrógeno molecular (H2)",
+      "wrong": [
+        "Dióxido de carbono (CO2)",
+        "Cloruro de sodio (NaCl)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una solución?",
+      "good": "Limónada (agua con jugo de limón y azúcar)",
+      "wrong": [
+        "Amoníaco (NH3)",
+        "Oro (Au)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es una mezcla?",
+      "good": "Amoníaco (NH3)",
+      "wrong": [
+        "Agua de mar",
+        "Aire"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de un compuesto iónico?",
+      "good": "Cloruro de calcio (CaCl2)",
+      "wrong": [
+        "Gasolina",
+        "Oxígeno (O2)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es un compuesto químico?",
+      "good": "Soda cáustica (NaOH)",
+      "wrong": [
+        "Hidróxido de potasio (KOH)",
+        "Hidrógeno (H2)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes es un ejemplo de una mezcla coloidal?",
+      "good": "Leche",
+      "wrong": [
+        "Hidrógeno molecular (H2)",
+        "Azúcar (sacarosa)"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes NO es una mezcla?",
+      "good": "Helio (He)",
+      "wrong": [
+        "Cerveza",
+        "Aire"
+      ]
+    }
+  ]
+}

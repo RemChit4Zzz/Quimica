@@ -1,0 +1,30 @@
+[
+  {
+    "Tema": "óxidos",
+    "Ejemplos": ["Fe2O3", "FeO", "Cu2O", "ZnO", "Al2O3"]
+  },
+  {
+    "Tema": "anhídrido",
+    "Ejemplos": ["SO3", "CO2", "N2O5", "P4O10", "Cl2O7"]
+  },
+  {
+    "Tema": "hidróxido",
+    "Ejemplos": ["NaOH", "KOH", "Ca(OH)2", "Mg(OH)2", "LiOH"]
+  },
+  {
+    "Tema": "ácidos",
+    "Ejemplos": ["HCl", "H2SO4", "HNO3", "CH3COOH", "H2CO3"]
+  },
+  {
+    "Tema": "hidruro",
+    "Ejemplos": ["NaH", "LiH", "KH", "BeH2", "CaH2"]
+  },
+  {
+    "Tema": "sal binaria",
+    "Ejemplos": ["NaCl", "KBr", "MgCl2", "LiI", "BaF2"]
+  },
+  {
+    "Tema": "Oxisal",
+    "Ejemplos": ["CaSO4", "MgCO3", "Na2SO4", "Al2(SO4)3", "FeCO3"]
+  }
+]

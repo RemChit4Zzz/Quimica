@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FUNCIONES ORGANICAS</title>
+    <link rel="stylesheet" href="../../css/Impostor.css">
+    <style>
+        /* Estilo para el botón "back" */
+        .button-back {
+            display: inline-block;
+            padding: 16px 32px;
+            background-color: #e79d3c;
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            border-radius: 12px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .button-back:hover {
+            background-color: #f7c37f; /* Cambia el color de fondo del botón "back" a un rojo más vibrante en el hover */
+            transform: scale(1.05);
+            box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Funciones Quimicas</h1>
+    <div id="perdisteMensaje" style="display: none;">
+        <h2>¡Perdiste!</h2>
+    </div>
+    
+    <div id="resultado"></div>
+    <div id="score"></div>
+    <div id="pregunta"></div>
+    <div id="respuestas"></div>
+
+    <script src="../../js/Impostor.js"></script>
+
+    <!-- Botón "back" al final de la página con la clase "button-back" -->
+    <div id="boton-back-container">
+        <a href="../Actividades.html" class="button-back">Back</a>
+    </div>
+</body>
+</html>

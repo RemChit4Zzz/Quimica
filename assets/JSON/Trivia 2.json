@@ -1,0 +1,42 @@
+{
+  "ionico": [
+    {
+      "nombre": "Drag And Drop",
+      "descripcion": "Completa las siguientes oraciones con la palabra adecuada:",
+      "preguntas": [
+        {
+          "pregunta": "En una reacción iónica, los iones __BLANK__ electrones.",
+          "respuesta_correcta": "transfieren",
+          "respuestas_incorrectas": ["comparten", "pierden", "ganan"]
+        },
+        {
+          "pregunta": "Los compuestos iónicos están formados por __BLANK__ y __BLANK__.",
+          "respuesta_correcta": "cationes, aniones",
+          "respuestas_incorrectas": ["átomos, moléculas", "protones, electrones", "neutrones, electrones"]
+        }
+      ]
+    },
+    {
+      "nombre": "Question 1",
+      "descripcion": "Selecciona la respuesta correcta:",
+      "preguntas": [
+        {
+          "pregunta": "¿Cuál es la carga típica de un ion cation?",
+          "respuesta_correcta": "Positiva",
+          "respuestas_incorrectas": ["Negativa", "Neutra"]
+        }
+      ]
+    },
+    {
+      "nombre": "Image",
+      "descripcion": "Selecciona la imagen correcta:",
+      "preguntas": [
+        {
+          "pregunta": "Identifica el símbolo del elemento químico con número atómico 6.",
+          "respuesta_correcta": "../../media/imagenes/IONICO.png",
+          "respuestas_incorrectas": ["../../media/imagenes/METALICO.png", "../../media/imagenes/COVALENTE.png", "../../media/imagenes/NO_POLAR.png"]
+        }
+      ]
+    }
+  ]
+}
